@@ -1,0 +1,53 @@
+<html>
+<head>
+ <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<link rel="stylesheet" href="css\index.css">
+<title>CALCULATOR</title>
+<!-- <script>
+function calculate(){
+var y=document.getElementById("display"}.value;
+document.getElementById("display"}.value=eval("y");
+}
+</script>-->
+</head>
+<body>
+<table border=1 width="400px" height="400px">
+<thead><tr><td colspan=4>
+<center>CALCULATOR</center></td></tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=4><input type="text" id="display" class="pad"></td>
+</tr>
+<tr>
+<td align="center"><button type="button" onclick=display.value+="1" class="pad">1</button></td>
+<td><button type="button" onclick=display.value+="2" class="pad">2</button></td>
+<td><button type="button" onclick=display.value+="3" class="pad">3</button></td>
+<td><button type="button" onclick=display.value+="+" class="pad">+</button></td>
+</tr>
+<tr>
+<td><button type="button" onclick=display.value+="4" class="pad">4</button></td>
+<td><button type="button" onclick=display.value+="5" class="pad">5</button></td>
+<td><button type="button" onclick=display.value+="6" class="pad">6</button></td>
+<td><button type="button" onclick=display.value+="-" class="pad">-</button></td>
+</tr>
+<tr>
+<td><button type="button" onclick=display.value+="7" class="pad">7</button></td>
+<td><button type="button" onclick=display.value+="8" class="pad">8</button></td>
+<td><button type="button" onclick=display.value+="9" class="pad">9</button></td>
+<td><button type="button" onclick=display.value+="*" class="pad">*</button></td>
+</tr>
+<tr>
+<td><button type="button" onclick=display.value+="0" class="pad">0</button></td>
+<td><button type="button" onclick=display.value="" class="pad">C</button></td>
+<td><button type="button" onclick="display.value=eval(display.value)" class="pad">=</button></td>
+<td><button type="button" onclick=display.value+="/" class="pad">/</button></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
